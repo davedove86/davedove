@@ -23,7 +23,8 @@ const HomePage = () => {
             </div>
             <div className="p-4">
               <h2 className='text-2xl font-bold my-2'>Unive</h2>
-              <p className='my-2'>Unive is a web based dashboard application for students to track their courses, achievements, appointments and details their course notes. This application is under development and will be ready to launch soon.</p>
+              <p className='mb-8'>Unive is a web based dashboard application for students to track their courses, achievements, appointments and details their course notes. This application is under development and will be ready to launch soon.</p>
+              <a href="https://github.com/davedove86/unive-app" className='underline' target='_blank'>View Project on Github</a>
             </div>
           </div>
           <div className='shadow-md rounded-lg dark:shadow-gray-500'>
