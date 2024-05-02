@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Profile from '@/assets/images/profile.png';
 import unive from '@/assets/images/unive.jpg';
-import comingSoon from '@/assets/images/coming-soon.jpg';
 import { TbPhotoFilled } from "react-icons/tb";
 
 const HomePage = () => {
@@ -14,10 +13,11 @@ const HomePage = () => {
       <p className='max-w-md md:max-w-md'>Hi there, I am a software engineer who builds for the web with a design-oriented approach. I currently run my own Web Design Agency, <a href='https://www.dovedesign.io' target='blank'>Dove Design</a> which design and builds websites for businesses.</p>
     </section>
 
+    {/* TODO: Add grey shadow on dark mode projects boxes */}
      <section id='projects' className='max-w-md md:max-w-3xl mx-auto'>
       <h2 className='text-2xl font-bold mb-6'>Projects</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
-          <div className='shadow-md rounded-lg'>
+          <div className='shadow-md rounded-lg dark:shadow-gray-500'>
              <div className="flex items-center justify-center h-64">
               <Image src={unive} alt="Unive App Screenshot"/>
             </div>
@@ -26,7 +26,7 @@ const HomePage = () => {
               <p className='my-2'>Unive is a web based dashboard application for students to track their courses, achievements, appointments and details their course notes. This application is under development and will be ready to launch soon.</p>
             </div>
           </div>
-          <div className='shadow-md rounded-lg'>
+          <div className='shadow-md rounded-lg dark:shadow-gray-500'>
             <div className="flex items-center justify-center h-64">
               <TbPhotoFilled size={100} />
             </div>
@@ -35,7 +35,7 @@ const HomePage = () => {
               <p className='my-2'>This application is in development and is not yet ready to showcase on my portfolio</p>
             </div>
           </div>
-          <div className='shadow-md rounded-lg'>
+          <div className='shadow-md rounded-lg dark:shadow-gray-500'>
             <div className="flex items-center justify-center h-64">
               <TbPhotoFilled size={100} />
             </div>
@@ -44,7 +44,7 @@ const HomePage = () => {
               <p className='my-2'>This application is in development and is not yet ready to showcase on my portfolio</p>
             </div>
           </div>
-          <div className='shadow-md rounded-lg'>
+          <div className='shadow-md rounded-lg dark:shadow-gray-500'>
             <div className="flex items-center justify-center h-64">
               <TbPhotoFilled size={100} />
             </div>
