@@ -76,6 +76,11 @@ const HomePage = () => {
           <a href="https://www.linkedin.com/in/davedove86/" target='_blank' className='text-lg'>@davedove86</a>
         </div>
 
+        <div className="flex flex-row items-end gap-2">
+          <p className='text-lg'>X:</p>
+          <a href="https://x.com/davedove86" target='_blank' className='text-lg'>@davedove86</a>
+        </div>
+
       </div>
 
     </section>

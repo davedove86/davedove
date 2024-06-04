@@ -10,9 +10,9 @@ const footer = () => {
           <a href="https://www.linkedin.com/in/davedove86/" target='_blank'>
             <FaLinkedin size={18}/>
           </a>
-          {/* <a href="#">
+          <a href="https://x.com/davedove86">
             <FaSquareXTwitter size={18}/>
-          </a> */}
+          </a>
         </div>
         </footer>
     </>
